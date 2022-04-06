@@ -1,5 +1,7 @@
 element {
     --main-text-color: #212121;
+    --aditional-color: #2196F3;
+    --aditional-text-color: #757575;
     --text-decoration-type:none;
   }
 
@@ -24,7 +26,7 @@ body{
     text-decoration: var(--text-decoration-type);
 }
 .logo-web{
-    color: #2196F3;
+    color: var(--aditional-color);
 }
 
 .footer{
@@ -42,7 +44,7 @@ body{
     text-decoration: var(--text-decoration-type);
 }
 .logo-footer-web{
-    color: #2196F3;
+    color: var(--aditional-color);
 }
 .footer-address{
     color:#FFFFFF;
@@ -71,17 +73,17 @@ body{
 
 }
 .nav-link:hover{
-    color: #2196F3;
+    color: var(--aditional-color);
 }
 .contacts{
     list-style-type: none;
 }
 .contacts-link{
     text-decoration: var(--text-decoration-type);
-    color:#757575;
+    color:var(--aditional-text-color);
 }
 .contacts-link:hover{
-    color: #2196F3;
+    color: var(--aditional-color);
 }
 
 .main-section{
@@ -106,7 +108,7 @@ body{
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0.06em;
-    background: #2196F3;
+    background: var(--aditional-color);
     border:0px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -125,7 +127,7 @@ body{
     letter-spacing: 0.03em;
 }
 .stats-description{
-    color:#757575;
+    color:var(--aditional-text-color);
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -173,7 +175,7 @@ body{
 
 }
 .team-member-position{
-    color:#757575;
+    color:var(--aditional-text-color);
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
@@ -187,6 +189,7 @@ body{
     list-style: none;
 }
 .filter-button{
+    cursor: pointer;
     font-size: 16px;
     font-weight: 500;
     line-height: 26px;
@@ -199,7 +202,7 @@ body{
 }
 .filter-button:hover{
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--aditional-color);
 }
 .item-title{
     font-size: 18px;
@@ -208,12 +211,11 @@ body{
     letter-spacing: 0.06em;
 }
 .item-type{
-    color:#757575;
+    color:var(--aditional-text-color);
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.03em;
-    text-align: left;
 
 }
 .item-link{
