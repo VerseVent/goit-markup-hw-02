@@ -187,6 +187,10 @@ body{
     list-style: none;
 }
 .filter-button{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
     width: 128px;
     height: 38px;
     background: #F5F4FA;
@@ -196,6 +200,21 @@ body{
 .filter-button:hover{
     color: #FFFFFF;
     background: #2196F3;
+}
+.item-title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+.item-type{
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
 }
 .item-link{
     color:var(--main-text-color);
